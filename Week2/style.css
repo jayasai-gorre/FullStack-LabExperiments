@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 20%;
+    background-color: antiquewhite;
+    padding: 0 50px;
+}
+
+.name h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    text-align: center;
+}
+
+/* Education styling */
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.skills p {
+    margin-left: 40px;
+}
+
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills p span {
+    font-weight: bold;
+}
+
+.education table {
+    border-collapse: collapse;
+
+}
+
+.education th, td {
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+}
+
+/* Styling projects
+.projects div ul li {
+    padding: 10px;
+} */
+
+/* styling achievements */
+.hobbies div ul{
+    padding: 10px;
+}
